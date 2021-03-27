@@ -66,15 +66,7 @@ const promptProject = () => {
             type: 'input',
             name: 'tests',
             message: 'Please enter tests for your project and how to run them. (Optional)'
-        }
-    ])
-    .then(function(answers){
-        console.log(answers);
-    });
-}
-
-const promptLicense = () => {
-    return inquirer.prompt([
+        },
         {
             type: 'list',
             name: 'license',
@@ -88,15 +80,7 @@ const promptLicense = () => {
                     return false;
                 }
             }
-        }
-    ])
-    .then(function(answer){
-        console.log(answer);
-    });
-}
-
-const promptUser = () => {
-    return inquirer.prompt([
+        },
         {
             type: 'input',
             name: 'github',
@@ -124,12 +108,11 @@ const promptUser = () => {
             }
         }
     ])
-    .then(function(answers) {
+    .then(function(answers){
         console.log(answers);
     });
 }
 
-const questions = [];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
@@ -137,8 +120,6 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     promptProject()
-    .then(promptLicense)
-    .then(promptUser);
 }
 
 // Function call to initialize app
