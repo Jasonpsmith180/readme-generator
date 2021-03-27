@@ -108,9 +108,6 @@ const promptProject = () => {
             }
         }
     ])
-    .then(function(answers){
-        console.log(answers);
-    });
 }
 
 
@@ -120,6 +117,9 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     promptProject()
+    .then(answers => {
+        console.log(answers);
+    })
 }
 
 // Function call to initialize app
