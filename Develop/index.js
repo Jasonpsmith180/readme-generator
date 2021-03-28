@@ -72,7 +72,7 @@ const promptProject = () => {
             type: 'list',
             name: 'license',
             message: 'Please choose a license for your project. (Required)',
-            choices: ['Apache', 'Academic', 'BSD', 'GNU', 'GPL', 'ISC', 'MIT', 'Mozilla', 'Other'],
+            choices: ['Apache', 'BSD', 'GPL', 'IBM', 'ISC', 'MIT', 'Mozilla', 'WTFPL'],
             validate: projectLicense => {
                 if (projectLicense) {
                     return true;
@@ -126,7 +126,7 @@ function writeToFile(fileName, data) {
             // if everything worked resolve the promise and send the successful data to the .then method
             resolve({
                 ok: true,
-                message: 'File created!'
+                message: 'README.md file created successfully! See the dist folder for your generated ReadMe file.'
             });
         });
     });
@@ -136,12 +136,13 @@ function writeToFile(fileName, data) {
 function init() {
     promptProject()
     .then(answers => {
-        console.log(answers);
         return generateMarkdown(answers);
     })
     .then(pageMarkDown => {
-        console.log(pageMarkDown);
         return writeToFile('README.md', pageMarkDown);
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse.message);
     })
     .catch(err => {
         console.log(err);
