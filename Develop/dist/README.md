@@ -1,44 +1,44 @@
 
-  # Readme Generator
+  # asdasd
 
-  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   ## Description
-  It generates Readme files for projects!
+  werwer
 
   ***
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributions](#contributions)
+  - [Contribution](#contribution)
   - [Tests](#tests)
   - [License](#license)
   - [GitHub](#github)
   - [Questions](#questions)
 
   ## Installation
-  Clone this repository, install inquirer using the 'npm install inquirer' command, and you will be good to go!
+  verve
 
   ## Usage
-  Use it to generate Readme files for all your projects!
+  werwqer
 
   ***
 
-  ## Contributions
-  Feel free to contribute!
+  ## Contribution Guidelines
+  crefwef
 
   ## Tests
-  After cloning and installing inquirer. Use 'node index' to test it out. If the application doesn't run you may need to use the 'npm install' command. 
+  werwe
 
   
   ## License  
-  This application is covered under the [WTFPL](http://www.wtfpl.net/about/) license.
+  This application is covered under the [BSD](https://opensource.org/licenses/BSD-3-Clause) license.
 
   ***
 
   ## GitHub
-  Check out my repository and other projects at my [GitHub](https://github.com/jasonpsmith180)!
+  Check out my repository and other projects at my [GitHub](https://github.com/werwer)!
 
   ## Questions
-  For any questions or comments feel free to email me at jasonpsmith180@gmail.com.
+  For any questions or comments feel free to email me at cwece.
 
