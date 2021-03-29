@@ -90,7 +90,7 @@ function generateMarkdown(data) {
 
   ***
 
-  ## Contribution Guidelines
+  ## Contribution
   ${data.contribution}
 
   ## Tests
