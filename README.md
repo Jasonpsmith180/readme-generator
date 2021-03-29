@@ -6,9 +6,8 @@ When a user starts the application they are given a series of prompts about thei
 
 ## Video Demonstration
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/17ompXGJKEFi2Imgf4xlSbU0F-_rDXQnl/preview" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+https://drive.google.com/file/d/17ompXGJKEFi2Imgf4xlSbU0F-_rDXQnl/preview
+
 
 ***
 
