@@ -3,7 +3,7 @@
 
   [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
   ## Description
-  It generates Readme files for projects!
+  It generates Readme files!
 
   ***
   ## Table of Contents
@@ -17,18 +17,18 @@
   - [Questions](#questions)
 
   ## Installation
-  Clone the repository and then install inquirer.
+  Clone the repository and install the inquirer dependency.
 
   ## Usage
-  Free use for anyone who wants to generate Readme files.
+  Feel free to use it to generate all your readme files!
 
   ***
 
-  ## Contribution Guidelines
-  Feel free to contribute if you want!
+  ## Contribution
+  Please contribute!
 
   ## Tests
-  Open your IDE and use the 'node index' command in the terminal to run the application.
+  Run the 'node index' command to test out the application.
 
   
   ## License  
